@@ -1,7 +1,6 @@
 *.DS_Store
 **/.ipynb_checkpoints
 
-*vtk
 vtk_output_fsi_cfd/*.vtk
 vtk_output_fsi_csm/*.vtk
 *.pkl
