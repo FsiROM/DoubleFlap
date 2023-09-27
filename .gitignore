@@ -1,5 +1,11 @@
 *.DS_Store
 **/.ipynb_checkpoints
 
-*.vtk
+*vtk
+vtk_output_fsi_cfd/*.vtk
+vtk_output_fsi_csm/*.vtk
 *.pkl
+
+coSimData/*.npy
+!coSimData/coords_interf.npy
+!coSimData/map_used.npy
